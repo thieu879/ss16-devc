@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-12-06T00:23:06.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="6T0EoCdTTYm4zRHOECo2" version="22.1.5" type="device">
+  <diagram name="Page-1" id="PCEz8etpz5tmlVwOVNh3">
+    <mxGraphModel dx="1242" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-1" target="9mMGJOt4Z8hb1-xZozmM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-2" target="9mMGJOt4Z8hb1-xZozmM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-2" value="copyFile(char *sourceFile, char *destinationFile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-3" target="9mMGJOt4Z8hb1-xZozmM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-3" value="&lt;div&gt;&amp;nbsp;*source, *destination;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ch;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-5" target="9mMGJOt4Z8hb1-xZozmM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-5" value="source = fopen(sourceFile, &quot;r&quot;);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-7" target="9mMGJOt4Z8hb1-xZozmM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-7" target="9mMGJOt4Z8hb1-xZozmM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-7" value="source == NULL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-9" value="Khong the mo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-11" target="9mMGJOt4Z8hb1-xZozmM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-11" value="destination = fopen(destinationFile, &quot;a&quot;);" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-13" target="9mMGJOt4Z8hb1-xZozmM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-13" target="9mMGJOt4Z8hb1-xZozmM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-13" value="destination == NULL" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-15" value="fclose(source);&lt;br&gt;Khong the mo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-17" target="9mMGJOt4Z8hb1-xZozmM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-17" value="&lt;div&gt;while ((ch = fgetc(source)) != EOF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; fputc(ch, destination);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; printf(&quot;Đa sao chep noi dung tu %s sang %s\n&quot;, sourceFile, destinationFile);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="790" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-19" value="&lt;div&gt;fclose(source);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; fclose(destination);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-21" target="9mMGJOt4Z8hb1-xZozmM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-21" value="&lt;div&gt;file1[] = &quot;C:\\Users\\ADMIN\\Desktop\\bt01.txt&quot;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;file2[] = &quot;C:\\Users\\ADMIN\\Desktop\\bt03.txt&quot;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;file3[] = &quot;C:\\Users\\ADMIN\\Desktop\\bt5.txt&quot;;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9mMGJOt4Z8hb1-xZozmM-23" target="9mMGJOt4Z8hb1-xZozmM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-23" value="&lt;div&gt;copyFile(file1, file3);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; copyFile(file2, file3);&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9mMGJOt4Z8hb1-xZozmM-26" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

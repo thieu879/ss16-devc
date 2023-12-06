@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2023-12-06T00:14:37.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="bXQUT56l1ouPCAZtnFqF" version="22.1.5" type="device">
+  <diagram name="Page-1" id="dQq_sxYRf2Paqsmh5ATd">
+    <mxGraphModel dx="1242" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="t8uLsHS5nV-Fre8a65G6-1" target="t8uLsHS5nV-Fre8a65G6-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="t8uLsHS5nV-Fre8a65G6-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-2" value="&lt;div&gt;&amp;nbsp;*file;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;ch;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; lines = 0;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="t8uLsHS5nV-Fre8a65G6-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487.5" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="t8uLsHS5nV-Fre8a65G6-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="t8uLsHS5nV-Fre8a65G6-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-6" value="f == null" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="447.5" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="t8uLsHS5nV-Fre8a65G6-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-14" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="528" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-15" value="false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t8uLsHS5nV-Fre8a65G6-16" value="fclose(file)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-1" value="file = fopen(&quot;C:\\Users\\ADMIN\\Desktop\\bt03.txt&quot;, &quot;r&quot;);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="310" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuRC696X9ecSfySprv7a-2" target="YuRC696X9ecSfySprv7a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-2" value="Khong the mo file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-3" value="&lt;div&gt;while((ch = fgetc(file)) != EOF) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; putchar(ch);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (ch == &#39;\n&#39;) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; lines++;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="560" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-5" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YuRC696X9ecSfySprv7a-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.437;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t8uLsHS5nV-Fre8a65G6-16" target="YuRC696X9ecSfySprv7a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
